@@ -38,7 +38,7 @@ Neural networks are computational models inspired by the human brain's neural st
 Forward propagation computes the output of the neural network from input data, passing through each layer using matrix multiplication and activation functions.
 
 Output for single neuron:
-$$ \text{neuron_output} = \text{input}*\text{weight}*\text{bias}$$
+$$ \text{neuron_output} = \text{input} \cdot \text{weight} + \text{bias} $$
 
 Output for multiple neurons:
 $$\ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} \$$
