@@ -41,7 +41,7 @@ Forward propagation computes the output of the neural network from input data, p
 
 For single neuron, the output is calculated as the product of inputs and weights plus bias. The formula is:
 
-$$ \text{neuron_output} = \mathbf{x} \cdot \mathbf{w} + b $$
+$$ \text{neuron output} = \mathbf{x} \cdot \mathbf{w} + b $$
 
 Where:
 - $\mathbf{x} $ is the input to the neuron.
