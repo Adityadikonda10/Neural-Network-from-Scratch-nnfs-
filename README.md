@@ -44,8 +44,8 @@ For single neuron, the output is calculated as the product of inputs and weights
 $$ \text{neuron output} = \mathbf{x} \cdot \mathbf{w} + b $$
 
 Where:
-- $\mathbf{x} $ is the input to the neuron.
-- $\mathbf{w} $ is the weight of the neuron.
+- $\mathbf{x}$ is the input to the neuron.
+- $\mathbf{w}$ is the weight of the neuron.
 - $\ b$ is the bias, a scalar value,
 
 
