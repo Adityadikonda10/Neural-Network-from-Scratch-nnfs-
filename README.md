@@ -41,7 +41,7 @@ Output for single neuron:
 $$ \text{neuron_output} = \text{input}*\text{weight}*\text{bias}$$
 
 Output for multiple neurons:
-$$\[ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} \]$$
+$$\ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} \$$
 
 ### Activation Function (ReLU)
 
