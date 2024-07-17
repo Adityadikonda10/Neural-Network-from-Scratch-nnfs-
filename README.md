@@ -37,30 +37,29 @@ Neural networks are computational models inspired by the human brain's neural st
 ### Forward Propagation
 Forward propagation computes the output of the neural network from input data, passing through each layer using matrix multiplication and activation functions.
 
-Single Neuron output
+### Single Neuron output:
+
 For single neuron, the output is calculated as the product of inputs and weights plus bias. The formula is:
 
-$\text{neuron\_output} = \mathbf{x} \cdot \mathbf{w} + b$
+$$\text{neuron\_output} = \mathbf{x} \cdot \mathbf{w} + b$$
 
 Where:
-- \( \mathbf{x} \) is the input vector of size \( D \times 1 \) (column vector),
-- \( \mathbf{w} \) is the weight vector of size \( D \times 1 \) (column vector),
-- \( b \) is the bias, a scalar value,
-- \( \cdot \) denotes the dot product operation.
-$$
+- $\mathbf{x} $ is the input to the neuron.
+- $\mathbf{w} $ is the weight of the neuron.
+- $\ b$ is the bias, a scalar value,
 
-Multiple Neurons Output
+
+### Multiple Neurons Output:
 
 For multiple neurons, the output is calculated as the summation of the product of inputs and weights plus biases. The formula is:
-$$
-\[ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} \]
+$$\text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} \$$
 
 Where:
-- \(\text{input}_i\) represents each input value.
-- \(\text{weight}_i\) represents each corresponding weight.
-- \(\text{biases}\) is the bias term added to the summation.
+- $\text{input}_i$ represents each input value.
+- $\text{weight}_i$ represents each corresponding weight.
+- $\text{biases}$ is the bias term added to the summation.
 - \(n\) is the number of inputs.
-$$
+
 
 ### Activation Function (ReLU)
 
