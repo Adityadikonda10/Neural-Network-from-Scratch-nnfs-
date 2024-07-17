@@ -37,6 +37,8 @@ Neural networks are computational models inspired by the human brain's neural st
 ### Forward Propagation
 Forward propagation computes the output of the neural network from input data, passing through each layer using matrix multiplication and activation functions.
 
+$$ \text{output} = \text{inputs}*\b$$
+
 ### Activation Function (ReLU)
 
 The Rectified Linear Unit (ReLU) activation function introduces non-linearity by outputting the input directly if positive, otherwise, it outputs zero:
