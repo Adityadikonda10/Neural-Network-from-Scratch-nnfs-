@@ -115,7 +115,7 @@ To run the code and train the neural network, follow these steps:
     Execute the train.py script in the saved model directory to train the neural network:
 
     ```sh
-    python saved_model/train.py
+    python saved_model/training_model.py
     ```
 4. #### Training Results
     The training output will display the loss and accuracy at various epochs during the training process.
@@ -125,12 +125,15 @@ To run the code and train the neural network, follow these steps:
 5. #### Generate test Dataset
     Execute the generate_dataset.py script in the saved model directory to test the neural network:
     ```sh
-    python saved_model/test.py
+    python saved_model/generate_dataset.py
     ```
     <img width="1680" alt="Screenshot 2024-07-17 at 3 29 11 PM" src="https://github.com/user-attachments/assets/72cb6e9e-5b31-4dc1-ab7a-5084fe7d4d89">
 
 6. #### Test Results
     The predictions will be displayed.
+   ```sh
+    python saved_model/testing_model.py
+   ```
     <img width="1680" alt="Screenshot 2024-07-17 at 3 29 48 PM" src="https://github.com/user-attachments/assets/a587a9b5-a707-4c86-8ef3-0377f2b83c1a">
 
     
