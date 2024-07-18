@@ -101,7 +101,7 @@ To run the code and train the neural network, follow these steps:
 
 1. #### Clone the Repository:
     ```sh
-    git clone https://github.com/yourusername/nnfs.git
+    git clone https://github.com/Adityadikonda10/Neural-Network-from-Scratch-nnfs-
     cd nnfs
     ```
     <img width="1525" alt="Screenshot 2024-07-17 at 3 24 16 PM" src="https://github.com/user-attachments/assets/33772dc0-0990-47c0-8192-1ab242b24a9c">
@@ -109,7 +109,7 @@ To run the code and train the neural network, follow these steps:
     Ensure you have Python installed. Then, install the required libraries using:
 
     ```sh
-    pip install numpy nnfs
+    pip install numpy
     ```
 3. #### Run the Code:
     Execute the train.py script in the saved model directory to train the neural network:
